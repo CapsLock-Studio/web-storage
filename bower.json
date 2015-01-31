@@ -1,0 +1,25 @@
+{
+  "name": "web-storage",
+  "version": "0.0.0",
+  "homepage": "https://github.com/CapsLock-Studio/web-storage",
+  "authors": [
+    "Calvin <ts01364362@gmail.com>"
+  ],
+  "description": "This app provide a service which help user to store their favorite page from 404 page not found.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.3.11",
+    "angular-resource": "~1.3.11",
+    "angular-route": "~1.3.11",
+    "angular-animate": "~1.3.11",
+    "lumx": "~0.2.54"
+  }
+}
