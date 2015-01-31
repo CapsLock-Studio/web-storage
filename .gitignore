@@ -20,3 +20,5 @@
 .DS_Store
 bower_components/
 db/schema.rb
+.swp
+.lock
