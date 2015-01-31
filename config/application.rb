@@ -19,5 +19,13 @@ module WebStorage
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    # turn off rails automatically generate js/css files
+    # use rspec for testing
+    config.generators do |g|
+      g.javascripts = false
+      g.stylesheets = false
+      g.test_framework :rsepc
+    end
   end
 end
