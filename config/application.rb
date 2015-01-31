@@ -25,7 +25,7 @@ module WebStorage
     config.generators do |g|
       g.javascripts = false
       g.stylesheets = false
-      g.test_framework :rsepc
+      g.test_framework :rspec
     end
   end
 end
