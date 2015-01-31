@@ -8,4 +8,4 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 # Add bower_components to assets
-Rails.application.config.assets.path << Rails.root.join('app', 'assets', 'bower_components')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'bower_components')
